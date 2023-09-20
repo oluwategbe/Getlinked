@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("../../assets/fonts/clash-display/ClashDisplay-Light.ttf")
+    format("ttf");
+}
+@font-face {
+  font-family: "Clash Display Regular";
+  src: url("../../assets/fonts/clash-display/ClashDisplay-Regular.ttf")
+    format("ttf");
+}
+@font-face {
+  font-family: "Clash Display Bold";
+  src: url("../../assets/fonts/clash-display/ClashDisplay-Bold.ttf")
+    format("ttf");
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 7rem 1rem 7rem;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+.navbar p {
+  font-family: "Clash Display Regular";
+  font-size: 2.25rem;
+  font-weight: 700;
+  flex: 1;
+}
+
+.navbar span {
+  color: #d434fe;
+}
+
+.navlinks {
+  flex: 1.4;
+  display: flex;
+  justify-content: space-between;
+}
+.navlinks ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.navlinks li {
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.navbar button {
+  padding: 1rem 3rem;
+  border-radius: 0.25rem;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
