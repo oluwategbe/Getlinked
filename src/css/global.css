@@ -28,3 +28,32 @@ body {
   background: #150e28;
   color: white;
 }
+
+section {
+  display: flex;
+  gap: 6rem;
+  padding: 3rem 12rem;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+.sectionImg {
+  flex: 1;
+  height: 100%;
+}
+.sectionImg img {
+  width: 100%;
+  object-fit: contain;
+}
+.sectionText {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 2rem;
+}
+.sectionText h1 {
+  font-size: 2rem;
+}
+.sectionText p {
+  font-size: 0.875rem;
+  line-height: 1.71875rem;
+}

@@ -1,12 +1,17 @@
 import React from "react";
 import "../../css/global.css";
 import Layout from "../../layout";
+import Header from "../../components/Header";
+import Intro from "../../components/Intro";
+import Rules from "../../components/Rules";
 
 const Home = () => {
   return (
     <>
       <Layout>
-        <div style={{ height: "100vh" }}>Home</div>
+        <Header />
+        <Intro />
+        <Rules />
       </Layout>
     </>
   );

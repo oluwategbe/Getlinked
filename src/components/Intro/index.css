@@ -1,0 +1,18 @@
+.rules {
+  padding: 0rem 0rem;
+  align-items: center;
+}
+.rules .sectionText {
+  margin-left: 10rem;
+}
+.sectionText .heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.rules .sectionImg img {
+  object-fit: contain;
+  width: 41.5rem;
+  height: 41.5rem;
+}
