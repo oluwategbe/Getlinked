@@ -1,17 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../css/global.css";
 import Layout from "../../layout";
-import Header from "../../components/Header";
-import Intro from "../../components/Intro";
-import Rules from "../../components/Rules";
+import Timeline from "../../components/Timeline";
+import Partners from "./../../components/Partners";
+import Success from "../../components/Success";
 
 const Home = () => {
   return (
     <>
       <Layout>
-        <Header />
-        <Intro />
-        <Rules />
+        {/* <Header /> */}
+        {/* <Intro /> */}
+        {/* <Rules /> */}
+        {/* <Timeline /> */}
+        {/* <Partners /> */}
+        <Success />
       </Layout>
     </>
   );
